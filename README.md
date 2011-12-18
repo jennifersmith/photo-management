@@ -1,4 +1,0 @@
-photo-management
-================
-
-photo-management
