@@ -6,10 +6,17 @@
             (html5
               [:head
                [:title "photo-management"]
-               (include-css "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css")]
+               (include-css "css/bootstrap.css")
+               (include-css "css/custom.css")
+               ]
               [:body
+               [:div.topbar
+                [:div.topbar-inner
+                 [:div.container-fluid
+                  [:div.brand
+                   [:a {:href "/"} "Photo Management (done right)" ]]]]]
                [:div.container-fluid
-                
                 [:div.sidebar]
                 [:div.content
-                 content]]]))
+                 content
+                 ]]]))
